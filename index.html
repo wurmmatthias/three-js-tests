@@ -96,7 +96,7 @@
 				light.shadow.mapSize.width = 1024;
 				light.shadow.mapSize.height = 1024;
 				scene.add( light );
-				var geometry = new THREE.BoxBufferGeometry( 40, 40, 40 );
+				var geometry = new THREE.BoxBufferGeometry( 20, 20, 20 );
 				for ( var i = 0; i < 50; i ++ ) {
 					var object = new THREE.Mesh( geometry, new THREE.MeshLambertMaterial( { color: Math.random() * 0xffffff } ) );
 					object.position.x = Math.random() * 1000 - 500;
